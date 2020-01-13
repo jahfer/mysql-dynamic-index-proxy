@@ -1,0 +1,11 @@
+[package]
+name = "tinydb"
+version = "0.1.0"
+authors = ["Jahfer Husain <echo@jahfer.com>"]
+edition = "2018"
+
+[dependencies]
+tokio = { version = "0.2.0", features = ["full"] }
+tokio-util = { version = "0.2.0", features = ["full"] }
+futures = "0.3.0"
+
